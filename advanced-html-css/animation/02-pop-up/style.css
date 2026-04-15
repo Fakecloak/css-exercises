@@ -26,6 +26,7 @@ button {
   font-weight: 600;
 }
 
+
 .popup-modal {
   padding: 32px 64px;
   background-color: white;
@@ -39,10 +40,8 @@ button {
   pointer-events: none;
   opacity: 0%;
   text-align: center;
-}
-
-.popup-modal p {
-  margin-bottom: 24px;
+  transition: transform 0.3s ease-in-out, opacity 0.4s ease;
+  transform: translate(-50%, -100%);
 }
 
 .backdrop {
@@ -56,6 +55,7 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  transform: translate(-50%, -50%);
 }
 
 .backdrop.show {
