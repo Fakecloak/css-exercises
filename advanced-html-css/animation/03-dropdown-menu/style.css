@@ -3,13 +3,13 @@
   margin: 40px auto;
   text-align: center;
   line-height: 50px;
-  font-size: 15px;
+  font-size: 20px;
   color: rgb(247, 247, 247);
   cursor: pointer;
 }
 
 .menu-title {
-  background-color: rgb(163, 162, 162);
+  background-color: rgb(17, 109, 248);
 }
 
 .dropdown-menu {
